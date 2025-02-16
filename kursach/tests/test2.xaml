@@ -1,0 +1,26 @@
+﻿<Window x:Class="kursach.tests.test2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kursach.tests"
+        mc:Ignorable="d"
+        Title="test2" Height="450" Width="800">
+    <Grid>
+        <Button Click="Button_Click" Content="Выйти" Width="100" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,650,0"/>
+        <TextBox x:Name="text" TextWrapping="Wrap" Width="600" Height="100" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,100,0,0"/>
+        <RadioButton x:Name="option1" Width="300" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,240,400,0"/>
+        <Label x:Name="otvet1" Content="Вариант 1:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,235,700,0"/>
+        <TextBox x:Name="variant1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,235,300,0" Width="300" Height="25"/>
+        <RadioButton x:Name="option2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,280,100,0" Width="600"/>
+        <Label x:Name="otvet2" Content="Вариант 2:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,275,700,0"/>
+        <TextBox x:Name="variant2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,275,300,0" Width="300" Height="25"/>
+        <RadioButton x:Name="option3" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,320,400,0" Width="300"/>
+        <Label x:Name="otvet3" Content="Вариант 3:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,315,700,0"/>
+        <TextBox x:Name="variant3" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,315,300,0" Width="300" Height="25"/>
+        <Label x:Name="otvet" Content="Правильный ответ:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="150,275,0,0"/>
+        <TextBox x:Name="answer" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="470,250,0,0" Width="200" Height="75"/>
+        <Button Click="Button_Click_1" Width="150" Height="25" Content="Следующая страница" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="500,370,0,0"/>
+        <Button x:Name="save" Click="Button_Click_2" Width="150" Height="25" Content="Сохранить изменения" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,370,0,0"/>
+    </Grid>
+</Window>
